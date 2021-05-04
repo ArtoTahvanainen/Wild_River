@@ -1,4 +1,4 @@
-function myFunction2() {
+/*function myFunction2() {
 
 	//LUODAAN ARTIKKELI
 	var haeBlogi = document.getElementById('Blog'); //Haetaan "div" elementti id:n avulla
@@ -22,7 +22,7 @@ function myFunction2() {
 
 
 
-/*
+
 
 	//LUODAAN KUVA
 
