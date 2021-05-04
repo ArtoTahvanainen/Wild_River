@@ -22,9 +22,9 @@ function myFunction2() {
 
 
 
+/*
 
-
-	//LUORAAN KUVA
+	//LUODAAN KUVA
 
 	var file = document.getElementById('file2').files[0]; //Haetaan haluttu elementti id:n avulla
     var reader  = new FileReader(); //Luodaan tiedoston lukija
@@ -183,7 +183,7 @@ function LisaaArtikkeli() {
 }
 
 
-
+*/
 
 
 //NEXTPREV
