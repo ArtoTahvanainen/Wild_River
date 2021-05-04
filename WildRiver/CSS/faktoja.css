@@ -1,0 +1,227 @@
+.dropdown button{
+	background: #BDD09F;
+	color: #404F24;
+	transition: .5s;
+}
+
+@media (max-width: 858px) {
+	.dropdown button{
+		background: #BDD09F;
+		color: #404F24;
+		transition: .5s;
+	}	
+}
+
+.main {
+	background: #BDD09F;
+}
+
+
+/*PÄÄSISÄLTÖ*/´
+
+.tietoa {
+	min-height: 100vh;
+  	background: #f1f1f1;
+  	text-align: left;
+  	float: left;
+  	padding-top: 30px;
+	font-size: 28px;
+}
+
+.linkit {
+	padding-top: 30px;
+	width: 40%;
+	float: left;
+	background: #BDD09F;
+}
+
+.kuvaLinkki {
+	border-radius: 10px;
+	height: 300px;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 30px;
+	color: #000;
+ 	opacity: 1.0;
+ }
+
+.kuvaLinkki a {
+	font-family: Bookman;
+	display: block;
+	border-radius: 10px;
+	height: 300px;
+	width: 100%;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+  	align-items: center;
+ }
+
+.kuvaLinkki a:hover{
+	color: #000;
+	background-color: white;
+	opacity: 0.8;
+}
+
+.kysymykset {
+	min-height: 100vh;
+	width: 60%;
+	padding-top: 30px;
+	float: right;
+	background: rgb(245,245,245);
+	border-left: 3px solid black;
+}
+
+.kysymykset h1 {
+	font-family: Bookman;
+	padding: 0px 15px 50px 15px;
+}
+
+.kysymykset section {
+	width: 100%;
+	height: auto;
+	padding: 0px 15px 30px 15px;
+}
+
+.kysymykset section button{
+	text-align: left;
+	background: rgb(245,245,245);
+	color: #000;
+	cursor: pointer;
+	width: 100%;
+	margin-bottom: 15px;
+	border: none;
+	outline: none;
+	font-family: Bookman;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	opacity: 0.9;
+}
+
+.sis {
+	padding: 20px;
+	margin: 15px 0px 15px 0px;
+	display: none;
+	overflow: hidden;
+	background-color: #BDD09F;
+	opacity: 0.8;
+}
+
+.lisatietoa {
+	height: auto;
+	padding: 0px 15px 30px 15px;
+}
+
+.lisatietoa h2 {
+	padding: 50px 0px 0px 0px;
+	font-size: 25px;
+	line-height: 50px;
+}
+
+.lisatietoa a {
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.lisatietoa a:hover {
+	background: transparent;
+	font-weight: bold;
+	color: blue;
+}
+
+/*SELAIMEN KOON VAIHTUESSA TAPAHTUVAT MUUTOKSET*/
+
+@media (max-width: 1500px) {
+
+}
+
+@media (max-width: 1025px){
+
+}
+
+@media (max-width: 952px){
+
+}
+
+/*MOBILE*/
+
+@media (max-width: 858px){
+
+	.linkit {
+		width: 100%;
+		border-bottom: 3px solid #000;
+	}
+
+	.kysymykset{
+		width: 100%;
+		border-left: none;
+	}
+
+	.kysymykset h1 {
+		width: 80%;
+		margin: auto;
+		padding-left: 0px;
+	}
+
+	.kysymykset section {
+		width: 80%;
+		margin: auto;
+		padding-left: 0px;
+	}
+
+	.tietoa {
+		width: 100%;
+		font-size: 25px;
+	}
+
+	.kysymykset h1 {
+		font-size: 25px;
+	}
+
+	.kysymykset section button {
+		font-size: 16px;
+	}
+
+	.lisatietoa {
+		width: 80%;
+		margin: auto;
+		padding-left: 0px;
+	}
+}
+
+/*MOBILE2*/
+
+@media (max-width: 450px) {
+
+	.tietoa {
+		font-size: 23px;
+	}
+
+	.kuvaLinkki {
+		height: 200px; 
+	}
+
+	.kuvaLinkki a {
+		height: 200px; 
+	}
+
+}
+
+/*MOBILE3*/
+
+@media (max-width: 360px) {
+
+	.tietoa {
+		font-size: 18px;
+	}
+
+	.kuvaLinkki {
+		height: 150px; 
+	}
+
+	.kuvaLinkki a {
+		height: 150px; 
+	}
+}

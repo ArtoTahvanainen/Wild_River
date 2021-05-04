@@ -1,0 +1,80 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.dropdown button{
+	background: #D6ED17FF;
+	color: #543B23;
+	transition: .5s;
+}
+
+@media (max-width: 858px) {
+	.dropdown button{
+		background: #543B23;
+		color: #D6ED17FF;
+		transition: .5s;
+	}	
+}
+
+/*SISÄLTÖ*/
+
+.teksti {
+	width: 80%;
+	margin: auto;
+	padding: 30px 0px 30px 0px;
+}
+
+.teksti h1 {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.teksti h2 {
+	padding: 20px 0px 10px 0px;
+}
+
+
+
+.teksti p {
+	font-size: 17px;
+	text-align: justify;
+}
+
+@media (max-width: 1500px) {
+
+}
+
+@media (max-width: 1025px){
+
+}
+
+@media (max-width: 952px){
+
+}
+
+@media (max-width: 858px){
+	img {
+		width: 100% !important;
+		padding: 0px 0px 10px 0px !important;
+	}
+}
+
+@media (max-width: 450px) {
+	.teksti h1 {
+		font-size: 20px;
+	}
+
+	.teksti h2 {
+		font-size: 18px;
+	}
+
+	.teksti p {
+		font-size: 16px;
+	}
+}

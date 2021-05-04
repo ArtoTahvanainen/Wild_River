@@ -1,0 +1,149 @@
+a.active2,a:hover{
+	background: #BDD09F;
+	color: #404F24;
+	transition: .5s;
+}
+
+.main h1, h2, h3 {
+	text-align: center;
+}
+
+.otsikko {
+	text-align: justify;
+	padding: 10% 10%;
+	background: #BDD09F;
+	background-image: linear-gradient(#BDD09F, rgb(245,245,245));
+} 
+
+.otsikko h1 {
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+.palvelut {
+	width: 90%;
+	margin: auto;
+	text-align: justify;
+	font-size: 20px;
+	background: rgb(245,245,245);
+}
+
+.palvelut section {
+	width: 100%;
+	height: auto;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.palvelut section img{
+	width: 50%;
+	height: auto;
+	border-radius: 20px;
+}
+
+.palvelut section button{
+	background-color: transparent;
+	color: #000;
+	cursor: pointer;
+	padding: 20px;
+	width: 100%;
+	border: none;
+	text-align: center;
+	outline: none;
+	font-family: Bookman;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.palvelut section button i{
+	margin-left: 15px;
+	font-size: 30px;
+	color: #94b1b9;
+}
+
+.palvelut section hr {
+	height: 1px;
+	color: #543B23;
+}
+
+.sis {
+	padding: 20px;
+	display: none;
+	overflow: hidden;
+	background: #BDD09F;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	text-align: justify;
+}
+
+.sis a {
+	text-decoration: underline;
+}
+
+.sis a:hover {
+	background: transparent;
+	color: blue;
+}
+
+/*Muutokset näytön koon muuttuessa*/
+
+@media (max-width: 1500px) {
+	.main {
+		width: 80%;
+	}
+}
+
+@media (max-width: 1025px){
+	.main {
+		margin-left: 0%
+		width: 100%;
+	}
+}
+
+@media (max-width: 952px){
+
+}
+
+@media (max-width: 858px){
+	.main {
+		margin-left: 0%;
+		width: 100%;
+	}
+
+	.palvelut article {
+		width: 80%;
+		height: auto;
+		float: left;
+		margin: 10%;
+	}
+
+	.palvelut section button {
+		font-size: 20px;
+	}
+
+	.palvelut section button i {
+		font-size: 20px;
+	}
+
+}
+
+/*MOBILE2*/
+
+@media (max-width: 450px) {
+
+	.palvelut {
+		font-size: 14px;
+		text-align: left; 
+	}
+
+	.palvelut section img{
+		width: 80%;
+	}
+}
+
+/*MOBILE3*/
+
+@media (max-width: 360px) {
+
+}
